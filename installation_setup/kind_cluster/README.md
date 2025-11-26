@@ -12,6 +12,6 @@
 
 ### Run 
 ```
-  ./installation.sh 
-  
+./installation.sh 
+
  ```
