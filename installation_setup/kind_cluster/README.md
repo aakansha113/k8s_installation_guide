@@ -1,5 +1,12 @@
 ---
 ## step to install 
+## Add current user to docker group (To use docker without root)
+```
+sudo usermod -aG docker $USER && newgrp docker
+```
+
+Now, logout (use exit command) and connect again.
+
 ### create one folder as kind_cluster
  ```
  vim installation.sh
@@ -15,3 +22,5 @@
 ./installation.sh 
 
  ```
+
+
